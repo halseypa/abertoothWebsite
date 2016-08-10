@@ -1,4 +1,4 @@
 html {
-  background-image: url("background_white.png")
-
+  background-image: url("background_white.png");
+  background-size: cover;
 }
