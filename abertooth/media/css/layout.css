@@ -4,21 +4,8 @@
 
 }
 
-html {
-  background-image: url("background_white.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 img{
 	clip: rect(0px,100px,130px,0px);
-}
-
-html {
-  background-image: url("background_white.png");
-
 }
 
 
@@ -92,11 +79,11 @@ html {
 }
 
 body{
-    background-image: url("background_white.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url("background_white.png") no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .navbar{

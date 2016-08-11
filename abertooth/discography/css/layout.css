@@ -1,7 +1,9 @@
 body{
-    background-image: url("background_white.png");
-
-    background-repeat: repeat;
+  background: url("background_white.png") no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .navbar{
