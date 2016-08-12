@@ -24,6 +24,7 @@
     <![endif]-->
   </head>
   <body>
+    <div class="wrapper">
     <nav class="navbar navbar-default">
           <div class="container-fluid">
             <div class="navbar-header">
@@ -49,7 +50,6 @@
 
 	<div class="container">
 		<div id="mediaContent">
-			<br><br><br><br>
 			<br>
 			<div id="grid">
 				<div id="picture-elements">
@@ -123,24 +123,25 @@
 	</div>
 	<br><br><br><br><br><br><br><br>
 
-  <footer class="page-footer">
-		<div class="container inline-block">
-			<a href="http://www.facebook.com/abertoothlincoln" class="icon" target="_blank">
-			<img border="0" alt="FB" src="../footer/img/FB-f-Logo__blue_1024.png" height="42" width="42">
-			</a>
-			<a href="https://play.spotify.com/artist/4Um7ZWNwK2NPG2HWzW65H2" class="icon" target="_blank">
-			<img border="0" alt="FB" src="../footer/img/Spotify_Icon_RGB_Green.png" height="42" width="42">
-			</a>
-			<a href="https://twitter.com/abertooth" class="icon" target="_blank">
-			<img border="0" alt="FB" src="../footer/img/Twitter_Logo_White_On_Blue.png" height="42" width="42">
-			</a>
-			<a href="https://www.instagram.com/abertooth_lincoln/" class="icon" target="_blank">
-			<img border="0" alt="FB" src="../footer/img/Instagram-v051916.png" height="42" width="42">
-			</a>
-			<a href="../contact/contact.html">[Contact]</a>
-		</div>
-	</footer>
-
+  <div class="footer" id="outer-footer">
+    <div class="container inline-block" id="inner-footer">
+      <a href="http://www.facebook.com/abertoothlincoln" class="icon" target="_blank">
+      <img border="0" alt="FB" src="../footer/img/FB-f-Logo__blue_1024.png" height="30" width="30">
+      </a>
+      <a href="https://play.spotify.com/artist/4Um7ZWNwK2NPG2HWzW65H2" class="icon" target="_blank">
+      <img border="0" alt="FB" src="../footer/img/Spotify_Icon_RGB_Green.png" height="30" width="30">
+      </a>
+      <a href="https://twitter.com/abertooth" class="icon" target="_blank">
+      <img border="0" alt="FB" src="../footer/img/Twitter_Logo_White_On_Blue.png" height="30" width="30">
+      </a>
+      <a href="https://www.instagram.com/abertooth_lincoln/" class="icon" target="_blank">
+      <img border="0" alt="FB" src="../footer/img/Instagram-v051916.png" height="30" width="30">
+      </a>
+      <br>
+      <!--<img src="../buttons/contact.png" height="40" width="68"><a href="mailto:abertoothlincoln@gmail.com"><b id="contact-link">&nbsp; abertoothlincoln@gmail.com</b></a>-->
+    </div>
+  </div>
+</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -150,7 +151,7 @@
 	<script src="js/lightbox.js"></script>
 	<script src="js/lity.js"></script>
 	<script>
-		$window.load(function(){
+		$(window).load(function(){
 			$('#elements').masonry({itemSelector: '.grid-item',
                               //columnWidth: 5px
                               gutter: 2});
@@ -160,23 +161,6 @@
     lightbox.option({
       'showImageNumberLabel': false,
     });
-
-		//$(function(){
-		//	$('grid').masonry({
-		//		itemSelector: '.grid-item',
-		//		columnWidth: '.grid-sizer',
-		//		percentPosition: true
-		//		});
-		//	});
-			//var $container = $('#masonry-grid');
-
-			//$container.imagesLoaded().progress( function(){
-				//$container.masonry({
-				//columnWidth: 200,
-				//itemSelector: '.grid-item'
-				//});
-			//});
-		//});
 	</script>
   </body>
 </html>

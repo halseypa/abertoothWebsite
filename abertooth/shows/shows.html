@@ -13,7 +13,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
-    <link href="css/shows.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,6 +23,7 @@
     <![endif]-->
   </head>
   <body>
+    <div class="wrapper">
     <nav class="navbar navbar-default">
           <div class="container-fluid">
             <div class="navbar-header">
@@ -46,34 +47,36 @@
           </div><!-- /.container-fluid -->
         </nav>
 
-	<div class="container offset2">
+	<div class="container">
 		<div id="showContent" class="row">
-		<br><br><br>
-		<br><br>
+		<br>
 		<script type='text/javascript' src='http://widget.bandsintown.com/javascripts/bit_widget.js'></script><a href="http://www.bandsintown.com/Abertooth%20Lincoln" class="bit-widget-initializer" data-artist="Abertooth Lincoln" data-bg-color=transparent>Abertooth Lincoln Show Dates</a>
 		</div>
 	</div>
+</div>
 
-  <footer class="page-footer">
-		<div class="container inline-block">
-			<a href="http://www.facebook.com/abertoothlincoln" class="icon" target="_blank">
-			<img border="0" alt="FB" src="../footer/img/FB-f-Logo__blue_1024.png" height="42" width="42">
-			</a>
-			<a href="https://play.spotify.com/artist/4Um7ZWNwK2NPG2HWzW65H2" class="icon" target="_blank">
-			<img border="0" alt="FB" src="../footer/img/Spotify_Icon_RGB_Green.png" height="42" width="42">
-			</a>
-			<a href="https://twitter.com/abertooth" class="icon" target="_blank">
-			<img border="0" alt="FB" src="../footer/img/Twitter_Logo_White_On_Blue.png" height="42" width="42">
-			</a>
-			<a href="https://www.instagram.com/abertooth_lincoln/" class="icon" target="_blank">
-			<img border="0" alt="FB" src="../footer/img/Instagram-v051916.png" height="42" width="42">
-			</a>
-			<a href="../contact/contact.html">[Contact]</a>
-		</div>
-	</footer>
+<div class="footer" id="outer-footer">
+  <div class="container inline-block" id="inner-footer">
+    <a href="http://www.facebook.com/abertoothlincoln" class="icon" target="_blank">
+    <img border="0" alt="FB" src="../footer/img/FB-f-Logo__blue_1024.png" height="30" width="30">
+    </a>
+    <a href="https://play.spotify.com/artist/4Um7ZWNwK2NPG2HWzW65H2" class="icon" target="_blank">
+    <img border="0" alt="FB" src="../footer/img/Spotify_Icon_RGB_Green.png" height="30" width="30">
+    </a>
+    <a href="https://twitter.com/abertooth" class="icon" target="_blank">
+    <img border="0" alt="FB" src="../footer/img/Twitter_Logo_White_On_Blue.png" height="30" width="30">
+    </a>
+    <a href="https://www.instagram.com/abertooth_lincoln/" class="icon" target="_blank">
+    <img border="0" alt="FB" src="../footer/img/Instagram-v051916.png" height="30" width="30">
+    </a>
+    <br>
+    <!--<img src="../buttons/contact.png" height="40" width="68"><a href="mailto:abertoothlincoln@gmail.com"><b id="contact-link">&nbsp; abertoothlincoln@gmail.com</b></a>-->
+  </div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/shows.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
