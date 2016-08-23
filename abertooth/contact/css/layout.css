@@ -95,7 +95,6 @@ body{
   box-pack:center;
   box-align:center;
 }
-
 @media (min-width: 700px) {
 
     .center-img {
